@@ -1,0 +1,41 @@
+{
+ "dataset": "cse",
+ "seed": 1,
+ "shap": {
+  "ms_mean": 97.30892364954343,
+  "ms_std": 15.108021112017509,
+  "ms_p95": 110.11514305500896,
+  "local_acc_gap": 1.0662870619793096e-09,
+  "top": [
+   "Fwd Header Len",
+   "Fwd Pkts/s",
+   "Bwd IAT Max",
+   "PSH Flag Cnt",
+   "Bwd IAT Min",
+   "Init Fwd Win Byts",
+   "Bwd IAT Tot",
+   "Bwd Pkt Len Std",
+   "Bwd IAT Std",
+   "TotLen Fwd Pkts"
+  ]
+ },
+ "ig": {
+  "ms_mean": 39.01001758975326,
+  "ms_std": 10.310726767603935,
+  "ms_p95": 50.500139853829744,
+  "completeness_rel_err": 0.005828520826527541,
+  "completeness_rel_err_mean": 0.009563448486955603
+ },
+ "cf": {
+  "n": 200,
+  "from_exit3": 6,
+  "validity": 0.51,
+  "sparsity_mean": 4.2745098039215685,
+  "l1_mean": 0.15771830213420532,
+  "violations": 0,
+  "iters_mean": 51.25,
+  "ms_mean": 565.7695254449209,
+  "ms_std": 469.85179365969094,
+  "ms_p95": 1130.0602294504636
+ }
+}

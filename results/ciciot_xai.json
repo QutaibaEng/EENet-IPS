@@ -1,0 +1,41 @@
+{
+ "dataset": "ciciot",
+ "seed": 1,
+ "shap": {
+  "ms_mean": 71.76420468058495,
+  "ms_std": 11.470990144768043,
+  "ms_p95": 86.77782639788346,
+  "local_acc_gap": 1.6515453660215229e-09,
+  "top": [
+   "Number",
+   "ack_flag_number",
+   "Rate",
+   "HTTPS",
+   "AVG",
+   "Header_Length",
+   "syn_flag_number",
+   "Time_To_Live",
+   "Max",
+   "TCP"
+  ]
+ },
+ "ig": {
+  "ms_mean": 38.11863858005381,
+  "ms_std": 11.960479327644729,
+  "ms_p95": 48.6617233043944,
+  "completeness_rel_err": 0.0035452592225081393,
+  "completeness_rel_err_mean": 0.007290178842075252
+ },
+ "cf": {
+  "n": 200,
+  "from_exit3": 200,
+  "validity": 1.0,
+  "sparsity_mean": 5.15,
+  "l1_mean": 0.1752425296790898,
+  "violations": 0,
+  "iters_mean": 2.775,
+  "ms_mean": 90.58971022499463,
+  "ms_std": 153.70006403864298,
+  "ms_p95": 127.16301414839101
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "dataset": "unsw",
+ "file": "UNSW_NB15_testing-set.csv",
+ "raw_rows": 82332,
+ "raw_cols": 45,
+ "dropped_identifier_cols": [
+  "id",
+  "label"
+ ],
+ "conflicting_rows_removed": 14,
+ "rows_after_dedup": 53940,
+ "duplicates_removed": 28378,
+ "n_features": 53,
+ "n_train": 38836,
+ "n_val": 4316,
+ "n_test": 10788,
+ "attack_share": 0.3659621802002225,
+ "train_attack": 14213,
+ "test_attack": 3948,
+ "classes": {
+  "Normal": 34200,
+  "Exploits": 7126,
+  "Fuzzers": 4388,
+  "Generic": 3640,
+  "Reconnaissance": 2469,
+  "DoS": 1315,
+  "Shellcode": 377,
+  "Analysis": 312,
+  "Backdoor": 70,
+  "Worms": 43
+ },
+ "seconds": 2.4
+}

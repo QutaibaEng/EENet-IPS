@@ -1,0 +1,26 @@
+{
+ "dataset": "cse",
+ "file": "Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv",
+ "raw_rows": 1048575,
+ "raw_cols": 80,
+ "dropped_identifier_cols": [
+  "Timestamp",
+  "Dst Port"
+ ],
+ "conflicting_rows_removed": 0,
+ "rows_after_dedup": 619798,
+ "duplicates_removed": 428777,
+ "n_features": 50,
+ "n_train": 446254,
+ "n_val": 49584,
+ "n_test": 123960,
+ "attack_share": 0.15181559153143442,
+ "train_attack": 67748,
+ "test_attack": 18819,
+ "classes": {
+  "Benign": 525703,
+  "SSH-Bruteforce": 94041,
+  "FTP-BruteForce": 54
+ },
+ "seconds": 19.7
+}

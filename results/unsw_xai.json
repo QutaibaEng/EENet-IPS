@@ -1,0 +1,41 @@
+{
+ "dataset": "unsw",
+ "seed": 1,
+ "shap": {
+  "ms_mean": 117.14683156038518,
+  "ms_std": 23.732611567090242,
+  "ms_p95": 154.32276245046523,
+  "local_acc_gap": 4.098457719629393e-08,
+  "top": [
+   "dttl",
+   "ct_dst_src_ltm",
+   "sttl",
+   "service=-",
+   "dload",
+   "state=FIN",
+   "response_body_len",
+   "ct_srv_dst",
+   "dwin",
+   "rate"
+  ]
+ },
+ "ig": {
+  "ms_mean": 39.24022980987502,
+  "ms_std": 8.26257655269956,
+  "ms_p95": 49.79008219997922,
+  "completeness_rel_err": 0.026954335348407656,
+  "completeness_rel_err_mean": 0.11124149377224878
+ },
+ "cf": {
+  "n": 200,
+  "from_exit3": 200,
+  "validity": 1.0,
+  "sparsity_mean": 5.465,
+  "l1_mean": 0.12763281229883433,
+  "violations": 0,
+  "iters_mean": 2.15,
+  "ms_mean": 100.38362576004147,
+  "ms_std": 138.07996828050298,
+  "ms_p95": 130.2105703005509
+ }
+}
