@@ -183,7 +183,7 @@ def run(name, cfg, seed):
 
 
 if __name__ == '__main__':
-    run(sys.argv[1], sys.argv[2], int(sys.argv[3]))
+    run(sys.argv[1], sys.argv[2], int(sys.argv[3])) 
 
 
 
